@@ -50,3 +50,13 @@ if(hacker1[0] < hacker2[0]) {
   console.log("What?! You both got the same name?");
 }
 
+var sentence = prompt("Tell me something!");
+var reverseSentence = "";
+for(var i = sentence.length - 1; i >= 0; i--){
+  reverseSentence += sentence[i];
+}
+if(sentence === reverseSentence) {
+  console.log("You've written a palindrome!");
+} else {
+  console.log("Cool! Thanks!");
+}

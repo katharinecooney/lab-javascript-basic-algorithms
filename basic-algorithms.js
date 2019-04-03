@@ -38,15 +38,11 @@ console.log(reverseName);
 
 // Lexographical order 
 
-// (I don't know if I understand the directions! I will compare the first letter of each name...)
-
-// I know if the first letters are the same, I should compare the next letters, but I can't think of how to do that...
-
-if(hacker1[0] < hacker2[0]) {
+if(hacker1 < hacker2) {
   console.log("The driver's name goes first");
-} else if (hacker1[0] > hacker2[0]) {
+} else if (hacker1 > hacker2) {
   console.log("Yo, the navigator goes first definitely");
-} else if (hacker1[0] === hacker2[0]) {
+} else if (hacker1 === hacker2) {
   console.log("What?! You both got the same name?");
 }
 
